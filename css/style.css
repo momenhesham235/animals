@@ -1,0 +1,26 @@
+html{
+    font-family: 'Tajawal', sans-serif;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.619)), url(../images/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar-brand , .nav-link{
+    color: rgb(144, 182, 195);
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link.active{
+    color: white !important;
+}
+.contect{
+    padding-top: 200px;
+}
